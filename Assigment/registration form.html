@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required><br>
+
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
+
+        <p>Date of Birth</p>
+        <input type="date" id="dob" name="dob" placeholder="Select your date of birth" required><br>
+
+        <p>Skills</p>
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="javascript" name="skills" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+
+        <p>Department</p>
+        <select id="department" name="department">
+            <option value="--select a value--">--select a value--</option>
+            <option value="AIML">AIML</option>
+            <option value="computer">Computer Science</option>
+            <option value="electronics">Electronics</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="civil">Civil</option>
+        </select><br>
+
+        <p>About Yourself</p>
+        <textarea id="about" name="about" placeholder="Tell us about yourself" rows="4" cols="50"></textarea><br>
+
+        <p>Upload your Resume</p>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

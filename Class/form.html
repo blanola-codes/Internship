@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <!-- Name input -->
+    <label for="fullname">Name</label>
+    <input type="text" placeholder="Enter your name" id="fullname" name="fullname" required><br><br>
+
+    <!-- Email input --> 
+    <label for="email">Email Address</label>
+    <input type="email" placeholder="Enter valid mail ID" id="email" name="email" required ><br><br>
+
+    <!-- Password input -->
+    <label for="password">Password</label>
+    <input type="password" placeholder="Enter Password" minlength="8" maxlength="15" id="password" name="password" required ><br><br>
+
+    <!--Age input -->
+    <label for="age">Age</label>
+    <input type="number" placeholder="" id="age" name="age" min="18" max="100"><br><br>
+
+    <!-- Button -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"><br><br>
+    <!-- Radio buttons -->
+    <p>Experience Level</p>
+    <input type="radio" id="beginner" name="experience" value="beginner">
+    <label for="beginner">Beginner</label>
+    <input type="radio" id="intermediate" name="experience" value="intermediate">
+    <label for="intermediate">Intermediate</label>
+    <input type="radio" id="advanced" name="experience" value="advanced">
+    <label for="advanced">Advanced</label>
+   <br><br>
+    <!-- Checkboxes -->
+    <p>Skills</p>
+    <input type="checkbox" id="html" name="skills" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="css" name="skills" value="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="javascript" name="skills" value="javascript">
+    <label for="javascript">JavaScript</label><br><br>
+
+    <!-- Dropdown Select -->
+    <label for="country">Country</label>
+    <select id="country" name="country">
+    <option value="india">India</option>
+    <option value="usa">United States</option>
+    <option value="canada">Canada</option>
+    <option value="uk">United Kingdom</option>
+     </select><br><br>
+    
+     <!-- Textarea -->
+     <label for="message">Message</label><br>
+     <textarea id="message" name="message" placeholder="Enter your message here"></textarea><br><br>
+
+     <!-- File upload -->
+     <label for="resume">Upload your resume:</label>
+     <input type="file" id="resume" name="resume">
+     
+     <!-- Date picker -->
+     <label for="dob">Select DOB:</label>
+     <input type="date" id="dob" name="dob">
+
+     <!-- Submit button -->
+     <input type="submit" value="Submit">
+     
+</body>
+</html>
