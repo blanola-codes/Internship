@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio | Blanola</title>
-    <meta name="description" content="Full-stack web developer specializing in React and Node.js. Available for freelance projects.">
+    <meta name="description" content="Portfolio of Blanola Joylin Dsouza, an AI & ML Engineering student learning HTML, CSS, JavaScript and React.">
     <meta name="keywords" content="web developer, React, JavaScript, portfolio">
     <meta name="author" content="Blanola Joylin Dsouza">
  
@@ -19,20 +19,22 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Blanola Joylin Dsouza | Web Developer">
     <meta name="twitter:description" content="Check out my portfolio!">
+    <link rel="icon" href="../Website Logo.png">
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <header>
-    <nav>
-    <div class="logo">BJD</div>
-    <ul>
-     <li><a href="#about">About</a></li>
-     <li><a href="#skills">Skills</a></li>
-     <li><a href="#projects">Projects</a></li>
-     <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
-    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" title="Toggle menu">☰</button>
-    </nav>
+        <nav class="navbar">
+            <div class="logo">BJD</div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+             <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+              <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" title="Toggle menu">☰</button>
+        </nav>
     </header>
     <main>
         <section id="hero" class="hero-section">
@@ -46,11 +48,12 @@
         <section id="about" class="about-section">
             <h2>About Me</h2>
             <figure class="profile-photo">
-                <img src="Passport size Photo.jpeg" alt="Profile photo" width="100" height="100">
+                <img src="../Class/Passport size Photo.jpeg" alt="Profile photo of Blanola Joylin Dsouza" width="200" height="200">
                 <figcaption>Blanola Joylin Dsouza</figcaption>
             </figure>
             <p>I love building things on the web. Currently learning HTML, CSS, JavaScript, and React.</p>
         </section>
+
         <section id="skills" class="skills-section">
         <h2>My Skills</h2>
         <div class="skills-grid">
@@ -59,13 +62,35 @@
          <div class="skills-items" data-level="75">JavaScript</div>
          <div class="skills-items" data-level="60">React</div>
         </div>
-        
         </section>
+
         <section id="projects" class="projects-section">
             <h2>My Projects</h2>
             <div class="projects-grid">
-                <article class="project-card" data-category="web ">
-                    <img src="weather app.png" alt="Weather App Screenshot">
+                <article class="project-card" data-category="web" data-year="2026">
+                    <img src="../weather app.png" alt="Weather App Screenshot" width="300px">
+                    <h3>Weather App</h3>
+                    <p>A simple weather application that allows users to check the current weather conditions for a specific location.</p>
+                    <div class="project_tags">
+                        <span>React</span>
+                        <span>API</span>
+                    </div>
+                    <a href="#">Live Demo</a>
+                    <a href="#">GitHub</a>
+                </article>
+                <article class="project-card" data-category="web" data-year="2026">
+                    <img src="../weather app.png" alt="Weather App Screenshot" width="300px">
+                    <h3>Weather App</h3>
+                    <p>A simple weather application that allows users to check the current weather conditions for a specific location.</p>
+                    <div class="project_tags">
+                        <span>React</span>
+                        <span>API</span>
+                    </div>
+                    <a href="#">Live Demo</a>
+                    <a href="#">GitHub</a>
+                </article>
+                <article class="project-card" data-category="web" data-year="2026">
+                    <img src="../weather app.png" alt="Weather App Screenshot" width="300px">
                     <h3>Weather App</h3>
                     <p>A simple weather application that allows users to check the current weather conditions for a specific location.</p>
                     <div class="project_tags">
@@ -92,21 +117,25 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
-                 <button type="submit">Send Message</button>
+                <div>
+                    <button  class="btn btn-primary" type="submit">Send Message</button>
+                </div>
             </form>
         </section>
     </main>
     <footer class="site-footer">
         <p>&copy;Blanola Joylin Dsouza. Built with HTML & CSS❤️  </p>
         <nav aria-label="Social Media Links">
-        <a href="" target="_blank">GitHub</a>
-        <a href="" target="_blank">LinkedIn</a> 
-    </footer>       
+            <a href="https://github.com/blanola-codes" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/blanola-joylin-dsouza-92278531a/" target="_blank">LinkedIn</a>
+        </nav>
+    </footer>   
+    <script src="script.js"></script>    
 </body>
 </html>
    
 
-        <ul>
+        <!-- <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -138,7 +167,7 @@
         <h3>Project 1</h3>
         <p>Description of project 1</p>
             <a href="#view projects">View Project</a>
-        <section id="contact">
+        <section id="contact"> -->
             <!-- <h2>Contact Me</h2>
             <p>Feel free to reach out to me!</p>
              -->
@@ -146,7 +175,7 @@
                <p>GitHub:<a href="https://github.com/blanola-codes" >blanola-codes</a></p> -->
                <!-- <p>LinkedIn: <a href="https://www.linkedin.com/in/blanola-joylin-dsouza-92278531a/" >Blanola Joylin Dsouza</a></p> -->
 
-               <h2>Contact Me</h2>
+               <!-- <h2>Contact Me</h2>
                <p>Have a project in mind? Let's talk!</p>
                <form action="">
                 <label for="name">Name</label>
@@ -179,4 +208,4 @@
         <p>&copy; 2024 Blanola Joylin Dsouza. All rights reserved.</p>
     </footer>
 </body> 
-</html>
+</html> -->

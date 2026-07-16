@@ -1,0 +1,78 @@
+/* Element Selector */
+ h1,h3
+{
+    color:navy;
+} 
+
+/* Class Selector */
+.hero-section {
+   color: rgb(162, 238, 240);
+}
+/* id Selector */
+#style {
+    color: rgb(53, 53, 234);
+}
+/* Universal Selector */
+/* * {
+   background-color: lightgray;
+} */
+/*group Selector*/
+ h2 {
+    color: rgb(28, 62, 110);
+}
+body{
+    background-color:#fff5f7;
+}
+p{
+    color: navy;
+    font-size: 16px;
+}
+.one,.two{
+     font-size: 20px; /* 1.25em~20px 1rem~16px */
+     font-family: calibri;
+     font-style: italic;
+     font-weight: bold;
+     text-align: justify;
+    font-size: 1rem;
+    text-transform:lowercase;
+}
+.three{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+}
+a{
+    text-decoration: none;/*text-decoration: underline,strikethrough,overline*/
+
+}
+/* pseudo classes */
+h2:hover{
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+}
+input:focus{
+    background-color: antiquewhite;
+    width: 250px;
+}
+p:first-child{
+    color: rgb(255, 127, 127);
+}
+p:last-child{
+    color: rgb(172, 207, 112);
+}
+/* Box model */
+div{
+    width: 200px;
+    border: 5px black solid;
+    padding:10px;
+    margin: 30px;
+}
